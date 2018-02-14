@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import OwlCarousel from 'react-owl-carousel';
-import $ from 'jquery';
-import "./style.scss";
+import "./style.css";
 class Home extends Component {
   constructor(props) {
         super(props);   
