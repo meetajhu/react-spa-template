@@ -1,4 +1,4 @@
-Template for Single Page Application using React and Webpack
+# Template for Single Page Application using React and Webpack
 
 To start:
 
