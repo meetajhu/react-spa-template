@@ -15,7 +15,8 @@ module.exports = {
     publicPath: path.resolve(__dirname, '/dist/'),
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.css$/,
         use: [
           { loader: "style-loader" },
@@ -29,6 +30,16 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+            }  
+          }
+        ]
       }
     ]
   },
