@@ -2,7 +2,7 @@
 
 To start:
 
-```npm install```
+```yarn install```
 
 Start dev server by:
 
